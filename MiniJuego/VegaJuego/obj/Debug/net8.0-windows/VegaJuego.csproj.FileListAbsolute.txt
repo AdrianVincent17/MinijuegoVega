@@ -1,0 +1,17 @@
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\bin\Debug\net8.0-windows\VegaJuego.exe
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\bin\Debug\net8.0-windows\VegaJuego.deps.json
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\bin\Debug\net8.0-windows\VegaJuego.runtimeconfig.json
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\bin\Debug\net8.0-windows\VegaJuego.dll
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\bin\Debug\net8.0-windows\VegaJuego.pdb
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\VegaJuego.Level1.resources
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\VegaJuego.Properties.Resources.resources
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\VegaJuego.csproj.GenerateResource.cache
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\VegaJuego.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\VegaJuego.AssemblyInfoInputs.cache
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\VegaJuego.AssemblyInfo.cs
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\VegaJuego.csproj.CoreCompileInputs.cache
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\VegaJuego.dll
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\refint\VegaJuego.dll
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\VegaJuego.pdb
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\VegaJuego.genruntimeconfig.cache
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\ref\VegaJuego.dll

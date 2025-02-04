@@ -49,6 +49,15 @@ namespace VegaJuego
                     Player.Escudo = 0;
                     Player.Salud = Player.Salud - 1;
                 }
+
+                if(Player.Salud == 0)
+                {
+                    this.Hide();
+                    Final End= new Final();
+                    //Paramos el temporizados
+                    MovEnemigos.Stop();
+                    End.Show(); 
+                }
                 
             }
             Enemigo1.mover();

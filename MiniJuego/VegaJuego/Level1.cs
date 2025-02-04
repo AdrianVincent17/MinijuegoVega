@@ -12,12 +12,21 @@ namespace VegaJuego
             IniciarPersonajes();
         }
 
+        private void IniciarOpcionesDelMapa()
+        {
+            labelVida.Text = "Salud->" + Player.Salud;
+            labelEscudo.Text = "Escudo->" + Player.Escudo;
+            labelArma.Text = "Arma->" + Player.Arma;
+        }
+
         private void IniciarPersonajes()
         {
             //Lienzo, coordenadaX, coordenadaY, salud, escudo y arma
-            Player = new Link(this, 0, 0, 30, 0, 0);
+            Player = new Link(this, 0, 0, 30, 10, 100);
             Enemigo1 = new Broncas(this, 0, 300);
         }
+
+
 
         private void Level1_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -26,7 +35,28 @@ namespace VegaJuego
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            labelVida.Text = "Salud->" + Player.Salud;
+            labelEscudo.Text = "Escudo->" + Player.Escudo;
+            labelArma.Text = "Arma->" + Player.Arma;
+
+            if (Player.Caja.Bounds.IntersectsWith(Enemigo1.Caja.Bounds))
+
+            {   if(Player.Salud>0)
+                    Player.Escudo = Player.Escudo - 1;
+
+                if (Player.Escudo <=0)
+                {
+                    Player.Escudo = 0;
+                    Player.Salud = Player.Salud - 1;
+                }
+                
+            }
             Enemigo1.mover();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

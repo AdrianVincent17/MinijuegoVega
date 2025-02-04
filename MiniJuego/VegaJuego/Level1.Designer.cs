@@ -32,9 +32,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Level1));
             MovEnemigos = new System.Windows.Forms.Timer(components);
             pictureBox1 = new PictureBox();
-            label1 = new Label();
+            labelVida = new Label();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
+            labelArma = new Label();
+            labelEscudo = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -56,14 +58,18 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // label1
+            // labelVida
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(705, 125);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 1;
-            label1.Text = "label1";
+            labelVida.AutoSize = true;
+            labelVida.BackColor = Color.Transparent;
+            labelVida.Font = new Font("Segoe UI Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelVida.ForeColor = Color.Gold;
+            labelVida.Location = new Point(665, 125);
+            labelVida.Name = "labelVida";
+            labelVida.Size = new Size(36, 17);
+            labelVida.TabIndex = 1;
+            labelVida.Text = "Vida";
+            labelVida.Click += label1_Click;
             // 
             // pictureBox2
             // 
@@ -87,15 +93,41 @@
             pictureBox3.TabIndex = 3;
             pictureBox3.TabStop = false;
             // 
+            // labelArma
+            // 
+            labelArma.AutoSize = true;
+            labelArma.BackColor = Color.Transparent;
+            labelArma.Font = new Font("Segoe UI Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelArma.ForeColor = Color.Gold;
+            labelArma.Location = new Point(665, 274);
+            labelArma.Name = "labelArma";
+            labelArma.Size = new Size(43, 17);
+            labelArma.TabIndex = 4;
+            labelArma.Text = "Arma";
+            // 
+            // labelEscudo
+            // 
+            labelEscudo.AutoSize = true;
+            labelEscudo.BackColor = Color.Transparent;
+            labelEscudo.Font = new Font("Segoe UI Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelEscudo.ForeColor = Color.Gold;
+            labelEscudo.Location = new Point(665, 197);
+            labelEscudo.Name = "labelEscudo";
+            labelEscudo.Size = new Size(51, 17);
+            labelEscudo.TabIndex = 5;
+            labelEscudo.Text = "Escudo";
+            // 
             // Level1
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackgroundImage = Properties.Resources.FondoFinal;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(806, 467);
+            Controls.Add(labelEscudo);
+            Controls.Add(labelArma);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
-            Controls.Add(label1);
+            Controls.Add(labelVida);
             Controls.Add(pictureBox1);
             DoubleBuffered = true;
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -115,8 +147,10 @@
 
         private System.Windows.Forms.Timer MovEnemigos;
         private PictureBox pictureBox1;
-        private Label label1;
+        private Label labelVida;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
+        private Label labelArma;
+        private Label labelEscudo;
     }
 }

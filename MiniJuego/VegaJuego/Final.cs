@@ -21,5 +21,10 @@ namespace VegaJuego
         {
             Application.Exit();
         }
+
+        private void Final_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

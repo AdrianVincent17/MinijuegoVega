@@ -16,3 +16,5 @@ C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\Vega
 C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\VegaJuego.genruntimeconfig.cache
 C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\ref\VegaJuego.dll
 C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\VegaJuego.sourcelink.json
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\VegaJuego.Final.resources
+C:\Users\AdrianV\MinijuegoVega\MiniJuego\VegaJuego\obj\Debug\net8.0-windows\VegaJuego.PantallaInicio.resources

@@ -1,3 +1,4 @@
+using System.Media;
 using System.Runtime.CompilerServices;
 
 namespace VegaJuego
@@ -6,14 +7,23 @@ namespace VegaJuego
     {
         Link Player;
         Broncas Enemigo1;
-        public Level1()
+        SoundPlayer musica;
+        Boolean HaySonido=false;
+        public Level1(CheckBox onOff)
         {
             InitializeComponent();
             IniciarPersonajes();
+            IniciarOpcionesDelMapa(onOff);
         }
 
-        private void IniciarOpcionesDelMapa()
+        private void IniciarOpcionesDelMapa(CheckBox onOff)
         {
+            if (onOff.Checked == true)
+            {
+               // musica = new SoundPlayer(global::VegaJuego.Properties.Resources.sonido);
+                musica.PlayLooping();
+                HaySonido = true;   
+            }
             labelVida.Text = "Salud->" + Player.Salud;
             labelEscudo.Text = "Escudo->" + Player.Escudo;
             labelArma.Text = "Arma->" + Player.Arma;
@@ -41,24 +51,30 @@ namespace VegaJuego
 
             if (Player.Caja.Bounds.IntersectsWith(Enemigo1.Caja.Bounds))
 
-            {   if(Player.Salud>0)
+            {
+                if (Player.Salud > 0)
                     Player.Escudo = Player.Escudo - 1;
 
-                if (Player.Escudo <=0)
+                if (Player.Escudo <= 0)
                 {
                     Player.Escudo = 0;
                     Player.Salud = Player.Salud - 1;
                 }
 
-                if(Player.Salud == 0)
+                if (Player.Salud == 0)
                 {
+
                     this.Hide();
-                    Final End= new Final();
+                    if (HaySonido == true)
+                    {
+                        musica.Stop();
+                    }
+                    Final End = new Final();
                     //Paramos el temporizados
                     MovEnemigos.Stop();
-                    End.Show(); 
+                    End.Show();
                 }
-                
+
             }
             Enemigo1.mover();
         }
@@ -67,5 +83,12 @@ namespace VegaJuego
         {
 
         }
+
+        private void Level1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        
     }
 }

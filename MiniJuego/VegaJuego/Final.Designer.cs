@@ -35,7 +35,7 @@
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackgroundImage = Properties.Resources.GameOver;
-            ClientSize = new Size(806, 467);
+            ClientSize = new Size(798, 450);
             Font = new Font("Segoe UI", 10F);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
@@ -43,6 +43,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Final";
             FormClosed += Final_FormClosed;
+            Load += Final_Load;
             ResumeLayout(false);
         }
 

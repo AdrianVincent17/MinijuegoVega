@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B3C9803-4709-4AF5-943B-A76B577DBCE7}|Extract Interface (sin)\\Extract Interface (sin).csproj|c:\\users\\adrianv\\source\\repos\\refactorizaciones\\extract interface (sin)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B3C9803-4709-4AF5-943B-A76B577DBCE7}|Extract Interface (sin)\\Extract Interface (sin).csproj|solutionrelative:extract interface (sin)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0A7D19-B5C7-4165-9BE6-A4F5BECA5C68}|Extract Interface (con)\\Extract Interface (con).csproj|c:\\users\\adrianv\\source\\repos\\refactorizaciones\\extract interface (con)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0A7D19-B5C7-4165-9BE6-A4F5BECA5C68}|Extract Interface (con)\\Extract Interface (con).csproj|solutionrelative:extract interface (con)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0388F006-DF42-40F3-9D23-5B7D6DF5A37C}|Replace Conditional with Polymorphism (con)\\Replace Conditional with Polymorphism (con).csproj|c:\\users\\adrianv\\source\\repos\\refactorizaciones\\replace conditional with polymorphism (con)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0388F006-DF42-40F3-9D23-5B7D6DF5A37C}|Replace Conditional with Polymorphism (con)\\Replace Conditional with Polymorphism (con).csproj|solutionrelative:replace conditional with polymorphism (con)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5246A365-4D5A-42C7-BE67-18DA82A7E826}|Replace Conditional with Polymorphism (sin)\\Replace Conditional with Polymorphism (sin).csproj|c:\\users\\adrianv\\source\\repos\\refactorizaciones\\replace conditional with polymorphism (sin)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5246A365-4D5A-42C7-BE67-18DA82A7E826}|Replace Conditional with Polymorphism (sin)\\Replace Conditional with Polymorphism (sin).csproj|solutionrelative:replace conditional with polymorphism (sin)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A10BC8-5161-4D72-920F-005594EA4C4E}|Replace Magic Number (con)\\Replace Magic Number (con).csproj|c:\\users\\adrianv\\source\\repos\\refactorizaciones\\replace magic number (con)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60A10BC8-5161-4D72-920F-005594EA4C4E}|Replace Magic Number (con)\\Replace Magic Number (con).csproj|solutionrelative:replace magic number (con)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5A1281-1E17-4043-A40C-A122551062C7}|Replace Magic Number (sin)\\Replace Magic Number (sin).csproj|c:\\users\\adrianv\\source\\repos\\refactorizaciones\\replace magic number (sin)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5A1281-1E17-4043-A40C-A122551062C7}|Replace Magic Number (sin)\\Replace Magic Number (sin).csproj|solutionrelative:replace magic number (sin)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E54DBF5E-D00C-4167-9008-CE9EC82E90DB}|Extract Class (con)\\Extract Class (con).csproj|c:\\users\\adrianv\\source\\repos\\refactorizaciones\\extract class (con)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E54DBF5E-D00C-4167-9008-CE9EC82E90DB}|Extract Class (con)\\Extract Class (con).csproj|solutionrelative:extract class (con)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\Extract Interface (sin)\\Program.cs",
+              "RelativeDocumentMoniker": "Extract Interface (sin)\\Program.cs",
+              "ToolTip": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\Extract Interface (sin)\\Program.cs",
+              "RelativeToolTip": "Extract Interface (sin)\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:38:32.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\Extract Interface (con)\\Program.cs",
+              "RelativeDocumentMoniker": "Extract Interface (con)\\Program.cs",
+              "ToolTip": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\Extract Interface (con)\\Program.cs",
+              "RelativeToolTip": "Extract Interface (con)\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:38:18.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\Replace Conditional with Polymorphism (con)\\Program.cs",
+              "RelativeDocumentMoniker": "Replace Conditional with Polymorphism (con)\\Program.cs",
+              "ToolTip": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\Replace Conditional with Polymorphism (con)\\Program.cs",
+              "RelativeToolTip": "Replace Conditional with Polymorphism (con)\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:37:40.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\Replace Conditional with Polymorphism (sin)\\Program.cs",
+              "RelativeDocumentMoniker": "Replace Conditional with Polymorphism (sin)\\Program.cs",
+              "ToolTip": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\Replace Conditional with Polymorphism (sin)\\Program.cs",
+              "RelativeToolTip": "Replace Conditional with Polymorphism (sin)\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:37:21.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\Replace Magic Number (con)\\Program.cs",
+              "RelativeDocumentMoniker": "Replace Magic Number (con)\\Program.cs",
+              "ToolTip": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\Replace Magic Number (con)\\Program.cs",
+              "RelativeToolTip": "Replace Magic Number (con)\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:36:00.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\Replace Magic Number (sin)\\Program.cs",
+              "RelativeDocumentMoniker": "Replace Magic Number (sin)\\Program.cs",
+              "ToolTip": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\Replace Magic Number (sin)\\Program.cs",
+              "RelativeToolTip": "Replace Magic Number (sin)\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:35:43.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\Extract Class (con)\\Program.cs",
+              "RelativeDocumentMoniker": "Extract Class (con)\\Program.cs",
+              "ToolTip": "C:\\Users\\AdrianV\\source\\repos\\refactorizaciones\\Extract Class (con)\\Program.cs",
+              "RelativeToolTip": "Extract Class (con)\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:16:51.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
